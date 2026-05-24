@@ -1,0 +1,6 @@
+2026-05-24 16:11:56.865832-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ALERTAS SENSORES [*]SISTEMAS"; SQL statement:
+SELECT * FROM ALERTAS SENSORES SISTEMAS [42000-224]
+2026-05-24 16:11:58.157090-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ALERTAS SENSORES [*]SISTEMAS"; SQL statement:
+SELECT * FROM ALERTAS SENSORES SISTEMAS [42000-224]
