@@ -101,10 +101,8 @@ space-mission-gs/
 
 **Pré-requisitos:** Java 17+, Maven
 
-```bash
-cd space-mission
+cd space-mission/backend
 mvn spring-boot:run
-```
 
 A API ficará disponível em: `http://localhost:8080`  
 Console H2 (banco de dados): `http://localhost:8080/h2-console`
