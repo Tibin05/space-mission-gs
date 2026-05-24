@@ -102,7 +102,7 @@ space-mission-gs/
 **Pré-requisitos:** Java 17+, Maven
 
 ```bash
-cd space-mission
+cd space-mission/backend
 mvn spring-boot:run
 ```
 
@@ -122,11 +122,19 @@ npm install
 npx expo start
 ```
 
-Escaneie o QR Code com o app **Expo Go** no celular, ou pressione:
-- `a` para abrir no emulador Android
-- `i` para abrir no simulador iOS
+Após iniciar, escolha uma das opções abaixo:
 
-> ⚠️ **Importante**: Se usar emulador Android, a URL base da API está configurada como `http://10.0.2.2:8080`. Para dispositivo físico, altere em `src/services/api.ts` para o IP da sua máquina (ex: `http://192.168.0.10:8080`).
+**Opção 1 — Celular físico (sem precisar instalar Android Studio):**
+1. Instale o app **Expo Go** no seu celular ([Android](https://play.google.com/store/apps/details?id=host.exp.exponent) | [iOS](https://apps.apple.com/app/expo-go/id982107779))
+2. Escaneie o QR Code que aparece no terminal com o app Expo Go
+3. O app abrirá diretamente no seu celular
+
+> ⚠️ Para dispositivo físico, altere a URL da API em `src/services/api.ts` para o IP da sua máquina (ex: `http://192.168.0.10:8080`). Celular e computador devem estar na mesma rede Wi-Fi.
+
+**Opção 2 — Emulador Android (requer Android Studio):**
+1. Instale o [Android Studio](https://developer.android.com/studio) e configure um dispositivo virtual
+2. Com o emulador aberto, pressione `a` no terminal do Expo
+3. A URL da API já está configurada como `http://10.0.2.2:8080` para funcionar no emulador
 
 ---
 
